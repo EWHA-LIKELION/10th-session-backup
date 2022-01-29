@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글자수 세기</title>
+    <link rel="stylesheet" href="./text.css">
+    <script src="String.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <h1>글자수 세기</h1>
+        <hr>
+        <textarea 
+        class="textbox" 
+        id='text' 
+        placeholder="텍스트를 입력해주세요"
+        onkeydown="countString()"></textarea>
+        
+        <div class="box">
+        <p>공백포함</p>
+        <p><span id="count">0</span>자</p>
+        </div>
+      
+
+    </div>
+
+</body>
+</html>
