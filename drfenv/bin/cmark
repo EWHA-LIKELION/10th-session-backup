@@ -1,0 +1,8 @@
+#!/Users/kimhyebin/Desktop/멋사10기/교육자료/백엔드/220621_drf기초1/drfenv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from commonmark.cmark import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
